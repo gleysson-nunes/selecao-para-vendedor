@@ -1,0 +1,7 @@
+:root {
+    --primary-font: 'Titillium Web', sans-serif;
+    --background-color-body: rgb(255, 192, 109);
+    --background-color-h1: rgb(253, 231, 203);
+    --color-h1: #771b1b; 
+    --background-color-form: rgb(245, 208, 161);  
+}

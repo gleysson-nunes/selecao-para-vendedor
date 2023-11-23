@@ -1,0 +1,362 @@
+@media screen and (min-width: 1024px) {
+
+    /*Start of layout configuration*/
+
+    .layout-main {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 10% 95%;
+        grid-template-areas: 
+        "layout-header" 
+        "layout-personal-data"
+    }
+
+    .layout-header {
+        grid-area: layout-header;
+    }
+
+    .layout-personal-data {
+        grid-area: layout-personal-data;
+    }
+
+    /*End of layout configuration*/
+
+    .module__subscribe {
+        margin: 1rem auto;
+        width: 88%;
+    }
+
+    .module__register {
+        display: none;
+    }
+
+    .layout-personal-data {
+        margin: -9rem auto 10.5rem auto;
+        width: 70%; 
+        line-height: 2.7rem; 
+    }
+
+    /*Begin of personal information*/
+
+    .module__personal__data {
+        text-align: center;
+    }
+
+    .module__label__name {
+        display: inline;
+        margin-left: 1rem;
+    }
+
+    .module__label__address {
+        display: inline;
+        margin-left: 1rem;
+    }
+
+    .module__input__address {
+        width: 65%;
+    }
+
+    .module__label__birth__date {
+        display: inline;
+        margin-left: 1rem;
+    }
+
+    .module__sex {
+        margin-top: -0.5rem;
+    }
+
+    .module__sex, 
+    .module__label__masculine__sex, 
+    .module__label__feminine__sex {
+        margin-left: 1rem;
+    }
+    
+    .module__label__email {
+        display: inline;
+        margin-left: 1rem;
+    }
+
+    .module__label__tel {
+        display: inline;
+        margin-left: 1rem;
+    }
+
+    /*End of personal information*/
+
+    /*Begin of professional information*/
+
+    .module__professional__information {
+        text-align: center;
+    }
+
+    .module__level__education {
+        display: inline;
+        margin-left: 1rem;
+    }
+
+    .module__time__experience {
+        display: inline;
+        margin-left: 1rem;
+    }
+
+    .module__last__experience {
+        margin-left: 1rem;
+    }
+
+    .module__label__experience,
+    .module__first__opportunity {
+        margin-left: 1rem;
+    }
+
+    .module__principal__experience {
+        margin-left: 1rem;
+    }
+
+    .module__positive__points,
+    .module__positive__points__options {
+        margin-left: 1rem;
+    }
+
+    .module__negative__points,
+    .module__negative__points__options {
+        margin-left: 1rem;
+    }
+
+    .module__why__hire__you {
+        margin-left: 1rem;
+    }
+
+    .module__attach__resume {
+        margin-left: 1rem;
+    }
+
+    .module__file {
+        margin-left: 1rem;
+    }
+
+    .module__buttons {
+        margin-left: 1rem;
+        width: 7rem;
+        border: none;
+    }
+
+    /*End of professional information*/
+}
+
+@media screen and (min-width: 1440px) {
+
+    .module__subscribe {
+        font-size: 3.2rem;
+        width: 80%;
+    }
+
+    /*Begin of personal information*/
+
+    .layout-personal-data {
+        margin: -12.4rem auto 14.2rem auto;
+        width: 64%;
+        line-height: 3.5rem;
+    }
+
+    .module__personal__data {
+        margin-top: 2rem;
+        font-size: 3rem;
+    }
+
+    .module__label__name {
+        font-size: 2rem;
+    }
+
+    .module__input__name {
+        height: 2.5rem;
+        font-size: 1.7rem;
+    }
+
+    .module__label__address {
+        font-size: 2rem;
+    }
+
+    .module__input__address {
+        height: 2.5rem;
+        font-size: 1.7rem;
+    } 
+
+    .module__label__birth__date {
+        font-size: 2rem;
+    }
+
+    .module__input__birth__date {
+        height: 2.5rem;
+        font-size: 1.7rem;
+    }
+
+    .module__sex {
+        margin-top: -0.5rem;
+        font-size: 2rem;
+    }
+
+    .module__label__masculine__sex,
+    .module__label__feminine__sex {
+        font-size: 2rem;
+    }
+
+    .module__input__sex__feminine {
+        transform: translateX(1.8rem);
+    }
+
+    .module__input__sex {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .module__label__email {
+        font-size: 2rem;
+    }
+
+    .module__input__email {
+        height: 2.5rem;
+        font-size: 1.7rem;
+    }
+
+    .module__label__tel {
+        font-size: 2rem;
+    }
+
+    .module__input__tel {
+        height: 2.5rem;
+        font-size: 1.7rem;
+    }
+
+    /*End of personal information*/
+
+    /*Begin of professional information*/
+
+    .module__professional__information {
+        margin-top: 2rem;
+        font-size: 3rem;
+    }
+
+    .module__level__education {
+        display: block;
+        margin-top: 1.5rem;
+        font-size: 2rem;
+    }
+
+    .module__select__level__education {
+        display: block;
+        margin-left: 1rem;
+        width: 23rem;
+        height: 2.5rem;
+        font-size: 1.7rem;
+    }
+
+    .module__time__experience {
+        display: block;
+        margin-top: 1.5rem;
+        font-size: 2rem;
+    }
+
+    .module__select__time_experience {
+        width: 25rem;
+        height: 2.5rem;
+        font-size: 1.7rem;
+        margin-left: 1rem;
+    }
+
+    .module__last__experience {
+        margin-top: 1.2rem;
+        font-size: 2rem;
+    }
+
+    .module__label__experience {
+        font-size: 2rem;
+    }
+
+    .module__input__last__experience  {
+        font-size: 1.7rem;
+        width: 15rem;
+        height: 2.5rem;
+    }
+
+    .module__first__opportunity {
+        font-size: 2rem;
+    }
+
+    .module__radio__first__opportunity {
+        width: 1.5rem;
+        height: 1.5rem;
+        transform: translateX(1.5rem);
+    }
+
+    .module__principal__experience {
+        font-size: 2rem;
+    }
+
+    .module__textarea__principal__experience {
+        font-size: 1.7rem;
+    }
+
+    .module__positive__points,  
+    .module__positive__points__options {
+        font-size: 2rem;
+    }
+
+    .module__input__positive__points {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .module__input__communicative {
+        transform: translateX(1.6rem);
+    }
+
+    .module__input__persuasive {
+        transform: translateX(3.8rem);
+    }
+
+    .module__negative__points,
+    .module__negative__points__options {
+        font-size: 2rem;
+    }
+
+    .module__input_negative__points {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .module__input__introspective {
+        transform: translateX(4.9rem);
+    }
+
+    .module__input__not__very__persuasive {
+        transform: translateX(2.2rem);
+    }
+
+    .module__input__impersistent {
+        transform: translateX(5.2rem);
+    }
+
+    .module__why__hire__you {
+        font-size: 2rem;
+    }
+
+    .module__textarea__why__hire__you {
+        font-size: 1.7rem;
+    }
+
+    .module__attach__resume {
+        font-size: 2rem;
+    }
+
+    .module__file {
+        font-size: 1.3rem;
+    }
+
+    .module__buttons {
+        width: 7.2rem;
+        height: 3rem;
+        font-size: 1.5rem;
+    }
+
+    /*End of professional information*/
+}

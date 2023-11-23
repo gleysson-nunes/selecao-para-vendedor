@@ -1,0 +1,28 @@
+body {
+    background-color: var(--background-color-body);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: var(--primary-font);
+}
+
+h1 {
+    background-color: var(--background-color-h1);
+    color: var(--color-h1); 
+    text-transform: uppercase;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;  
+    border-radius: 0.5rem;
+    background-color: var(--background-color-form);
+}
+
+fieldset {
+    border: none;
+}

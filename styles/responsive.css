@@ -1,0 +1,567 @@
+@media screen and (min-width: 320px) {
+    
+    .module__subscribe {
+        border-radius: 0.5rem;
+        font-size: 2rem;
+    }
+    
+    /*Begin of personal information*/
+    
+    .module__register {
+        font-size: 1.8rem;
+        font-weight: bolder;
+        text-align: center;
+        line-height: 3rem;
+    }
+    
+    .module__personal__data {
+        font-size: 1.5rem;
+        font-weight: bolder;
+        color:brown;
+        line-height: 5rem;
+    }
+    
+    .module__label__name {
+        display: flex;
+        flex-direction: column;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    
+    .module__input__name {
+        border-radius: 0.5rem;
+        color: green;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    
+    .module__label__address {
+        display: block;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    
+    .module__input__address {
+        border-radius: 0.5rem;
+        color: green;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    
+    .module__label__birth__date {
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    
+    .module__input__birth__date {
+        border-radius: 0.5rem;
+        color: green;
+        font-size: 1rem;
+        font-weight: 700;
+        text-align: center;
+    }
+    
+    .module__sex__option {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .module__sex {
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    
+    .module__label__masculine__sex, 
+    .module__label__feminine__sex {
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: #362f2f;
+    }
+    
+    .module__input__sex {
+        transform: translate(1rem); 
+    }
+    
+    .module__input__sex__feminine {
+        transform: translateX(1.5rem);
+    }
+    
+    .module__label__email {
+        display: block;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    
+    .module__input__email {
+        border-radius: 0.5rem;
+        color: green;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    
+    .module__label__tel {
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    
+    .module__input__tel {
+        border-radius: 0.5rem;
+        color: green;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    
+    /*end of personal information*/
+    
+    /*Begin of professional information*/
+    
+    .module__professional__information {
+        font-size: 1.5rem;
+        font-weight: bolder;
+        color:brown;
+        line-height: 5rem;
+    }
+    
+    .module__level__education {
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    
+    .module__select__level__education, 
+    .module__values__level__education {
+        border-radius: 0.5rem;
+        color: green;
+        font-size: 1rem;
+        font-weight: 700;
+        text-align: center;
+    }
+    
+    .module__time__experience {
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    
+    .module__select__time_experience, 
+    .module__values__time_experience {
+        border-radius: 0.5rem;
+        color: green;
+        font-size: 1rem;
+        font-weight: 700;
+        text-align: center;
+    }
+    
+    .module__last__experience {
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    
+    .module__label__experience {
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: #362f2f;
+        line-height: 3rem;
+    }
+    
+    .module__input__last__experience {
+        border-radius: 0.5rem;
+        color: green;
+        font-size: 1rem;
+        font-weight: 700;
+        transform: translate(3rem);
+        text-align: center;
+    }
+    
+    .module__final__experience {
+        transform: translate(3.2rem);
+    }
+    
+    .module__first__opportunity {
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: #362f2f;
+    }
+    
+    .module__radio__first__opportunity {
+        transform: translate(0.2rem);
+    }
+    
+    .module__principal__experience {
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    
+    .module__textarea__principal__experience {
+        display: block;
+        margin: 1rem auto;
+        border-radius: 0.5rem;
+        color: green;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    
+    .module__positive__points {
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    
+    .module__positive__points__options {
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: #362f2f;
+    }
+    
+    .module__input__organized {
+        transform: translateX(3.3rem);
+    }
+    
+    .module__input__communicative {
+        transform: translateX(2.2rem);
+    }
+    
+    .module__input__persuasive {
+        transform: translateX(3.6rem);
+    }
+    
+    .module__input__persistent {
+        transform: translateX(3.4rem);
+    }
+    
+    .module__input__service__knowledge {
+        transform: translateX(1rem);
+    }
+    
+    .module__negative__points {
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    
+    .module__negative__points__options {
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: #362f2f;
+    }
+    
+    .module__input__unorganized {
+        transform: translateX(4.4rem);
+    
+    }
+    
+    .module__input__introspective {
+        transform: translateX(4.7rem);
+    }
+    
+    .module__input__not__very__persuasive {
+        transform: translateX(3rem);
+    }
+    
+    .module__input__impersistent {
+        transform: translateX(4.9rem);
+    }
+    
+    .module__input__lack__knowledge__product__service {
+        transform: translateX(3.9rem);
+    }
+    
+    .module__why__hire__you {
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    
+    .module__textarea__why__hire__you {
+        display: block;
+        margin: 1rem auto;
+        border-radius: 0.5rem;
+        color: green;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    
+    .module__attach__resume {
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    
+    .module__buttons {
+        display: inline-block;
+        border-radius: 0.5rem;
+        background-color: rgb(0, 105, 0);
+        color: white;
+        font-weight: bold;
+        font-size: 1rem;
+        cursor: pointer;
+    } 
+    
+    .module__buttons:hover {
+        background-color: rgb(4, 87, 4);
+        transition: .3s linear;
+    }
+    
+    .module_button--bigger  {
+        margin: 1rem 1rem 0 0;
+        padding: 0.3rem;
+    }
+
+    .module__buttons {
+        width: 5rem;
+        border: none;
+    }
+    
+    /*End of professional information*/
+}
+
+@media screen and (min-width: 375px) {
+    .layout-main {
+        margin: 0 auto;
+    }
+
+    /*Begin of personal information*/
+
+    .module__register {
+        font-size: 2rem;
+    }
+
+    .module__personal__data {
+        font-size: 1.7rem;
+    }
+
+    .module__label__name {
+        font-size: 1.4rem;
+    }
+
+    .module__input__name {
+        width: 100%;
+    }
+
+    .module__label__address {
+        margin-top: 1rem;
+        font-size: 1.4rem;
+    }
+
+    .module__input__address {
+        width: 100%;
+    }
+
+    .module__label__birth__date {
+        display: block;
+        margin-top: 1rem;
+        font-size: 1.4rem;
+    }
+
+    .module__input__birth__date {
+        width: 50%;
+    }
+
+    .module__sex {
+        margin-top: 1rem;
+        font-size: 1.4rem;
+    }
+
+    .module__label__masculine__sex, 
+    .module__label__feminine__sex {
+        font-size: 1.4rem;
+    }
+
+    .module__label__email {
+        margin-top: 1rem;
+        font-size: 1.4rem;
+    }
+
+    .module__input__email  {
+        width: 100%;
+    }
+
+    .module__label__tel {
+        display: block;
+        margin-top: 1rem;
+        font-size: 1.4rem;
+    }
+
+    /*end of personal information*/
+
+    /*Begin of professional information*/
+
+    .module__professional__information {
+        font-size: 1.7rem;
+    }
+
+    .module__level__education {
+        font-size: 1.4rem;
+    }
+
+    .module__time__experience {
+        display: block;
+        margin-top: 1rem;
+        font-size: 1.4rem;
+    }
+
+    .module__last__experience  {
+        margin-top: 1rem;
+        font-size: 1.4rem;
+    }
+
+    .module__label__experience,
+    .module__first__opportunity  {
+        font-size: 1.4rem;
+    }
+
+    .module__principal__experience {
+        display: block;
+        margin-top: 1rem;
+        font-size: 1.4rem;
+    }
+
+    .module__positive__points {
+        margin-top: 1rem;
+        font-size: 1.4rem;
+    }
+
+    .module__positive__points__options {
+        font-size: 1.3rem;
+    }
+
+    .module__input__organized {
+        transform: translateX(3.5rem);
+    }
+
+    .module__negative__points {
+        margin-top: 1rem;
+        font-size: 1.4rem;
+    }
+
+    .module__negative__points__options {
+        font-size: 1.4rem;
+    }
+
+    .module__input__not__very__persuasive {
+        transform: translateX(2.8rem);
+    }
+
+    .module__input__impersistent {
+        transform: translateX(5rem);
+    }
+
+    .module__why__hire__you {
+        margin-top: 1rem;
+        font-size: 1.4rem;
+    }
+
+    .module__attach__resume {
+        display: block;
+        margin-top: 1rem;
+        font-size: 1.4rem;
+    }
+
+    .module__buttons {
+        width: 5rem;
+        border: none;
+    }
+    
+    /*End of professional information*/
+}
+
+@media screen and (min-width: 425px) {
+    .layout-main {
+        margin: 0 auto;
+    }
+
+    .module__textarea__principal__experience {
+        margin-top: 1rem;
+    }
+
+    .module__textarea__why__hire__you {
+        margin-top: 1rem;
+    }
+
+    .module__buttons {
+        width: 5rem;
+        border: none;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+
+    /*Begin of layout*/
+
+    .layout-header {
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .layout-personal-data {
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    /*End of layout*/
+
+    .module__register {
+        font-size: 2.5rem;
+    }
+
+    /*Begin of personal information*/
+
+    .module__personal__data {
+        font-size: 2.2rem;
+    }
+
+    .module__input__name {
+        width: 70%;
+    }
+
+    .module__input__address {
+        width: 70%;
+    }
+
+    .module__input__birth__date {
+        width: 25%;
+    }
+
+    .module__input__email {
+        width: 70%;
+    }
+
+    .module__input__tel {
+        width: 25%;
+    }
+
+    /*End of personal information*/
+
+      /*Begin of professional information*/
+
+    .module__professional__information {
+        font-size: 2.2rem;
+    }
+    
+    .module__level__education {
+        display: block;
+    }
+
+    .module__select__level__education {
+        width: 30%;
+    }
+
+    .module__select__time_experience {
+        width: 30%;
+    }
+
+    .module__input__last__experience {
+        width: 25%;
+    }
+
+    .module__textarea__principal__experience {
+        margin-top: 1.5rem;
+    }
+
+    .module__textarea__why__hire__you {
+        margin-top: 1.5rem;
+    }
+
+    .module__buttons {
+        width: 7rem;
+        border: none;
+    }
+
+    /*End of professional information*/
+}
+

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Seleção Para Vendedor">
+    <meta name="keywords" content="seleção, vendedor, emprego, oportunidade, trabalho">
+    <meta name="author" content="Gleysson Nunes">
+    <title>Seleção Para Vendedor</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/layout.css">
+    <link rel="stylesheet" href="styles/module.css">
+    <link rel="stylesheet" href="styles/var.css">
+    <link rel="stylesheet" href="styles/imports.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <main class="layout-main">
+        <header class="layout-header">
+            <h1 class="module__subscribe">Inscreva-se abaixo e participe da seleção para a vaga de vendedor</h1>
+        </header>
+
+        <form class="layout-personal-data" action="cadastro.php" method="post" autocomplete="on">
+            <fieldset>
+                <legend class="module__register">Cadastro</legend>
+
+                <h2 class="module__personal__data">Dados Pessoais</h2>
+
+                <div >
+                    <label class="module__label__name" for="name">Nome Completo:</label>
+                    <input class="module__input__name" type="text" name="name" id="name" size="32" autocomplete="country-name" autofocus required>
+                </div>
+
+                <div>
+                    <label  class="module__label__address" for="address">Endereço Completo:</label>
+                    <input class="module__input__address" type="text" name="address" id="address" size="32" autocomplete="address-level1" required>
+                </div>
+
+                <div>
+                    <label class="module__label__birth__date" for="birth-date">Data de Nascimento:</label>
+                    <input class="module__input__birth__date" type="date" name="birth-date" id="birth-date" required>
+                </div>
+
+                <div>
+                    <div class="module__sex__option">
+                        <p class="module__sex">Sexo:</p>
+                    </div>
+
+                    <div>
+                        <label class="module__label__masculine__sex" for="sex">Masculino</label>
+                        <input class="module__input__sex" type="radio" name="sex" id="masculine">
+                    </div>
+
+                    <div>
+                        <label class="module__label__feminine__sex" for="sex">Feminino</label>
+                        <input class="module__input__sex module__input__sex__feminine" type="radio" name="sex" id="feminine">
+                    </div>
+                </div>
+
+                <div>
+                    <label class="module__label__email" for="email">E-mail:</label>
+                    <input class="module__input__email" type="email" name="email" id="email" size="32" autocomplete="email" required>
+                </div>
+
+                <div>
+                    <label class="module__label__tel" for="tel">Celular/WhatsApp:</label>
+                    <input class="module__input__tel" type="tel" name="tel" id="tel" required pattern="[0-9]{11}" title="São 11 números" autocomplete="tel" required>
+                </div>
+            
+                    <h2 class="module__professional__information">Dados Profissionais</h2>
+
+                    <div>
+                        <label class="module__level__education" for="level-education">1. Qual o seu grau de instrução?</label>
+                        <select class="module__select__level__education" name="level-education" id="level-education" required>
+                            <option class="module__values__level__education" value="" Selected>Selecionar</option>
+                            <option class="module__values__level__education" value="medio-incompleto">Ensino Médio Inompleto</option>
+                            <option class="module__values__level__education" value="medio-completo">Ensino Médio Completo</option>
+                            <option class="module__values__level__education" value="superior-incompleto">Ensino Superior Incompleto</option>
+                            <option class="module__values__level__education" value="superior-completo">Ensino Superior Completo</option>
+                            <option class="module__values__level__education" value="outro">Outro</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label class="module__time__experience" for="time-experience">2. Há quanto tempo você atua na área?</label>
+                        <select class="module__select__time_experience" name="time-experience" id="time-experience" required>
+                            <option class="module__values__time_experience" value=""Selected>Selecionar</option>
+                            <option class="module__values__time_experience" value="primeira-vex">É minha primeira oportinidade</option>
+                            <option class="module__values__time_experience" value="menos-de-1-ano">Menos de 1 ano</option>
+                            <option class="module__values__time_experience" value="entre-1-e-3-anos">Entre 1 e 3 anos</option>
+                            <option class="module__values__time_experience" value="entre-5-e-10-anos">Entre 5 e 10 anos</option>
+                            <option class="module__values__time_experience" value="acima-de-10-anos">Acima de 10 anos</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <p class="module__last__experience">3. Informe a data de início e final ou aproximados da sua principal experiência em venda. Se for sua primeira oportunidade, marque a opção relacionada.</p>
+                    </div>
+
+                    <div>
+                        <label class="module__label__experience" for="start">Início</label>
+                        <input class="module__input__last__experience" type="date" name="start" id="start">
+                    </div>
+
+                    <div>
+                        <label class="module__label__experience" for="final">Final</label>
+                        <input class="module__input__last__experience module__final__experience" type="date" name="final" id="final">
+                    </div>
+
+                    <div>
+                        <label class="module__first__opportunity" for="first-opportunity">É minha primeira oportunidade</label>
+                        <input class="module__radio__first__opportunity" type="radio" name="first-opportunity" id="first-opportunity">
+                    </div>
+
+                    <div>
+                        <label class="module__principal__experience" for="principal-experience">4. Fale sobre sua principal experiência em vendas. Se não tiver experiência, fale sobre algo que você fez que, de alguma forma, envolveu vendas.</label>
+                    </div>
+                    <div>
+                        <textarea class="module__textarea__principal__experience" name="principal-experience" id="principal-experience" cols="30" rows="10" maxlenght="100" required></textarea>
+                    </div>
+
+                    <div class="module__positive__points">
+                        <p>5. Dos pontos positivos abaixo, marque o que mais se aproxima de você:</p>
+                    </div>
+
+                    <div>
+                        <label class="module__positive__points__options" for="organized">Organizado</label>
+                        <input class="module__input__positive__points module__input__organized" type="radio" name="positive__points" id="organized">
+                    </div>
+
+                    <div>
+                        <label class="module__positive__points__options" for="communicative">Comunicativo</label>
+                        <input class="module__input__positive__points module__input__communicative" type="radio" name="positive__points" id="communicative">
+                    </div>
+
+                    <div>
+                        <label class="module__positive__points__options" for="persuasive">Persuasivo</label>
+                        <input class="module__input__positive__points module__input__persuasive" type="radio" name="positive__points" id="persuasive">
+                    </div>
+
+                    <div>
+                        <label class="module__positive__points__options" for="persistent">Persistente</label>
+                        <input class="module__input__positive__points module__input__persistent" type="radio" name="positive__points" id="persistent">
+                    </div>
+
+                    <div>
+                        <label class="module__positive__points__options" for="product-service-knowledge">Conhecimento do produto/serviço</label>
+                        <input class="module__input__positive__points module__input__service__knowledge" type="radio" name="positive__points" id="product-service-knowledge">
+                    </div>
+
+                    <div>
+                        <p class="module__negative__points">6. Dos pontos negativos abaixo, marque o que mais se aproxima de você:</p>
+                    </div>
+
+                    <div>
+                        <label class="module__negative__points__options" for="unorganized">Desorganizado</label>
+                        <input class="module__input_negative__points module__input__unorganized" type="radio" name="unorganized" id="unorganized">
+                    </div>
+
+                    <div>
+                        <label class="module__negative__points__options" for="introspective">Instrospectivo</label>
+                        <input class="module__input_negative__points module__input__introspective" type="radio" name="introspective" id="introspective">
+                    </div>
+
+                    <div>
+                        <label class="module__negative__points__options" for="not-very-persuasive">Pouco persuasivo</label>
+                        <input class="module__input_negative__points  module__input__not__very__persuasive" type="radio" name="not-very-persuasive" id="not-very-persuasive">
+                    </div>
+
+                    <div>
+                        <label class="module__negative__points__options" for="impersistent">Impersistente</label>
+                        <input class="module__input_negative__points  module__input__impersistent" type="radio" name="impersistent" id="impersistent">
+                    </div>
+
+                    <div>
+                        <label class="module__negative__points__options" for="lack-of-knowledge-of-the-product/service">Desconhecimento do produto/serviço</label>
+                        <input class="module__input_negative__points module__input__lack__knowledge__product__service" type="radio" name="lack-of-knowledge-of-the-product/service" id="lack-of-knowledge-of-the-product/service">
+                    </div>
+
+                    <div>
+                        <p class="module__why__hire__you">7. Por que devemos te contratar, em vez de uma pessoa mais qualificada ou com mais experiência?</p>
+                    </div>
+
+                    <div>
+                        <label for="why-hire-you"></label>
+                        <textarea class="module__textarea__why__hire__you" name="why-hire-you" id="why-hire-you" cols="30" rows="10" maxlenght="100" required></textarea>
+                    </div>
+
+                    <div>
+                        <label class="module__attach__resume" for="attach-resume">8. Anexar Currículo (Opcional).</label>
+                        <input class="module__file" type="file" name="attach-resume" id="attach-resume">
+                    </div>
+
+                    <div>
+                        <input class="module__buttons module_button--bigger" type="submit" value="Enviar">
+                        <input class="module__buttons module_button--bigger " type="reset" value="Redefinir">
+                    </div>
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>
